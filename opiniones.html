@@ -19,23 +19,40 @@
 	<section>
 		<h3>Formulario</h3>
 		<form>
-			<p><label>Nombre: <input></label></p>
-			<p><label>Email: <input type="email"></label></p>
+			<p><label for="nom">Nombre:</label>
+				<input id="nom" />
+			</p>
+			<p><label for="email">Email:</label>
+				<input id="email" type="email" />
+			</p>
 			<fieldset>
 				<legend> Categoría </legend>
-				<p><label> <input type="radio" name="cat" > PHP </label></p>
-				<p><label> <input type="radio" name="cat" > Yahoo </label></p>
-				<p><label> <input type="radio" name="cat" > WePay y Etsy </label></p>
-				<p><label> <input type="radio" name="cat"  > Otro </label></p>
-		 </fieldset>
-			<p><label>Opinión: <input></label></p>
-			<p><label> <input type="checkbox"> ¿Desea mostrar sus datos? </label></p>
-			<p><button>Enviar</button></p>
+				<p><label for="categoria1">PHP:</label>
+					<input id="categoria1" type="radio" name="cat" />
+				</p>
+				<p><label for="categoria2">Yahoo:</label>
+					<input id="categoria2" type="radio" name="cat" />
+				</p>
+				<p><label for="categoria3">WePay y Etsy:</label>
+					<input id="categoria3" type="radio" name="cat" />
+				</p>
+				<p>
+					<label for="categoria4">Otro:</label>
+					<input id="categoria4" type="radio" name="cat" />
+				</p>
+			</fieldset>
+			<p><label for="opinion">Opinión:</label>
+				<input id="opinion" />
+			</p>
+			<p><label for="datos">¿Desea mostrar sus datos?</label>
+				<input id="datos" type="checkbox" />
+			</p>
+			<p><input type="submit" value="Enviar"></p>
 		</form>
-		
+
 
 	</section>
-	
+
 	<footer>
 		<img src="multimedia/HTML5.png" alt="HTML5 válido">
 		<img src="multimedia/CSS3.png" alt="CSS3 válido">
