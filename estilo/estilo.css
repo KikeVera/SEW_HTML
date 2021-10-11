@@ -1,2 +1,122 @@
+body {
+	  
+    font:400 1em ARIAL, sans-serif; 
+    color: #000000;
+    background-color:#E3E4E5;
+   
+    
+}
+
+nav{
+    background-color:#000000;
+    color: #FFFFFF;
+    height: 2em;
+}
+
+nav > a{
+    color:#D3D3D3;
+    background-color:#000000;
+    font:400 1.1em ARIAL, sans-serif; 
+    text-decoration: none;
+    
+}
 
 
+p{
+    font:400 1em ARIAL, sans-serif; 
+    color: #000000;
+    background-color:#E3E4E5;
+}
+
+h1 {
+    font: 400 3em ARIAL, sans-serif ;		
+    padding: 1em ;
+  
+    background-size: cover;
+    
+    background-color:#000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  
+}
+
+
+
+h2{
+    
+    font: 400 1.8em ARIAL, sans-serif;
+    
+    background-color:#E3E4E5;
+    color: #000000;
+    text-decoration:underline;
+    
+}
+
+
+h3{
+    
+    font: 400 1.5em ARIAL, sans-serif;
+    background-color:#E3E4E5;
+    color: #000000;
+    
+}
+
+
+
+li{
+    
+    
+    font:1em helvetica, sans-serif;
+    font-weight:bold;
+    
+}
+
+ul > li{
+    list-style-type: square;
+}
+
+table{
+   
+    
+    border-collapse: collapse;
+    background-color:#BDBDBD;
+    font: 400 1.05em Tahoma, sans-serif;
+    color: #000000;		
+   
+    
+    
+    
+}
+
+thead{
+    font: 1.1em Tahoma, sans-serif;
+    font-weight:bold;
+    color: #000000;
+    background-color:#E3E4E5;
+    
+    
+    
+}
+
+td{
+    
+    border: black 0.15em solid;
+    
+  
+}
+
+audio{
+   height: 3em;
+}
+
+figure > img{
+    height: 20em;
+    
+}
+
+input[type=submit] {
+    width: 5em;
+    height: 2em;
+    font: 1em Tahoma, sans-serif;
+    
+  }
