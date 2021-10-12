@@ -9,8 +9,9 @@
 	<meta name="application-name" content="RasmusLerdorfSEW">
 	<meta name="Description" content="Trabajo de html/css para la asignatura de SEW sobre Rasmus Lerdorf,trabajos">
 	<meta name="keywords" content="HTML, CSS, Rasmus, Lerdorf, Trabajos,Proyectos,Aportaciones " />
-	<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/posicionamiento.css" />
 </head>
 
 <body>
@@ -22,84 +23,88 @@
 		<a accesskey="o" tabindex="0" href="opiniones.html">Opiniones</a>
 	</nav>
 	<h2>Trabajos y proyectos</h2>
-	<figure>
-		<img src="multimedia/trabajos.jpg" alt="Rasmus Lerdorf">
-	</figure>
-
-	<article>
-		<h3>PHP y bases de datos</h3>
-		PHP puede combinarse con MySQL para trabajar con bases de datos, aunque también se pueden utilizar otros motores
-		de base de datos como Microsoft SQL Server, PostgreSQL, MongoDB, entre otros.
-	</article>
-	<section>
-		<h3>Lista de trabajos</h3>
-
-		<table>
-			<thead>
-				<tr>
-					<th>Trabajo</th>
-					<th>Descripcción</th>
-					<th>Periodo</th>
-
-				</tr>
-
-			</thead>
-			<tbody>
-				<tr>
-					<td>PHP</td>
-					<td>Proyecto iniciado por el y por el que es mas conocido </td>
-					<td>1994-actualidad</td>
-
-				</tr>
-				<tr>
-					<td>IBM</td>
-					<td>Como ingeniero </td>
-					<td>1999-2000</td>
-
-				</tr>
-				<tr>
-					<td>Yahoo</td>
-					<td>Como arquitecto y en seguridad </td>
-					<td>2002-2009</td>
-
-				</tr>
-				<tr>
-					<td>Linuxcare </td>
-					<td>Como ingenierio</td>
-					<td>200-2001</td>
-
-				</tr>
-
-				<tr>
-					<td>WePay</td>
-					<td>Como desarrollador </td>
-					<td>2011-2017</td>
-
-				</tr>
-				<tr>
-					<td>Etsy </td>
-					<td>Como ingeniero</td>
-					<td>2012-actualidad</td>
-
-				</tr>
-
-
-
-
-
-			</tbody>
-
-		</table>
-	</section>
-
-	<section>
-		<h3>Entrevista sobre el proyecto PHP</h3>
+	<main>
+		
 		<figure>
-			<video src="multimedia/entrevista.mp4" controls preload="auto">
-			</video>
+			<img src="multimedia/trabajos.jpg" alt="Rasmus Lerdorf">
 		</figure>
 
-	</section>
+		<aside>
+			<h3>PHP y bases de datos</h3>
+			PHP puede combinarse con MySQL para trabajar con bases de datos, aunque también se pueden utilizar otros
+			motores
+			de base de datos como Microsoft SQL Server, PostgreSQL, MongoDB, entre otros.
+		</aside>
+		<section>
+			<h3>Lista de trabajos</h3>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Trabajo</th>
+						<th>Descripcción</th>
+						<th>Periodo</th>
+
+					</tr>
+
+				</thead>
+				<tbody>
+					<tr>
+						<td>PHP</td>
+						<td>Proyecto iniciado por el y por el que es mas conocido </td>
+						<td>1994-actualidad</td>
+
+					</tr>
+					<tr>
+						<td>IBM</td>
+						<td>Como ingeniero </td>
+						<td>1999-2000</td>
+
+					</tr>
+					<tr>
+						<td>Yahoo</td>
+						<td>Como arquitecto y en seguridad </td>
+						<td>2002-2009</td>
+
+					</tr>
+					<tr>
+						<td>Linuxcare </td>
+						<td>Como ingenierio</td>
+						<td>200-2001</td>
+
+					</tr>
+
+					<tr>
+						<td>WePay</td>
+						<td>Como desarrollador </td>
+						<td>2011-2017</td>
+
+					</tr>
+					<tr>
+						<td>Etsy </td>
+						<td>Como ingeniero</td>
+						<td>2012-actualidad</td>
+
+					</tr>
+
+
+
+
+
+				</tbody>
+
+			</table>
+		</section>
+
+		<article>
+			<h3>Entrevista sobre el proyecto PHP</h3>
+			<figure>
+				<video src="multimedia/entrevista.mp4" controls preload="auto">
+				</video>
+			</figure>
+
+		</article>
+	</main>
 
 
 

@@ -14,7 +14,7 @@ nav{
 }
 
 nav > a{
-    color:#D3D3D3;
+    color:white;
     background-color:#000000;
     font:400 1.1em ARIAL, sans-serif; 
     text-decoration: none;
@@ -114,9 +114,8 @@ figure > img{
     
 }
 
-input[type=submit] {
-    width: 5em;
-    height: 2em;
-    font: 1em Tahoma, sans-serif;
+input {
+  
+    font: 1.1em Tahoma, sans-serif;
     
   }
