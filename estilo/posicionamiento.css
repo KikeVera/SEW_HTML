@@ -2,6 +2,9 @@ main{
     display: grid;
     grid-template-columns: [line1] 25% [line2] 25% [line3] 25% [line4] 25% ;
     grid-template-rows: [row1] auto [row2] auto [row3] auto ;
+    align-items: center ;
+    grid-auto-flow: row ;
+    overflow: scroll;
 }
 
 figure {
@@ -43,6 +46,7 @@ aside{
 nav{
     display: flex;
     justify-content:space-around;
+    flex-wrap:  wrap;
     align-items:center;
     height: 3em;
     
@@ -55,9 +59,7 @@ h1{
     text-align: center;
 }
 
-img{
-    max-width: 100%;
-}
+
 
 
 
