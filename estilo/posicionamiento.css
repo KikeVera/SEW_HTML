@@ -43,6 +43,9 @@ aside{
 nav{
     display: flex;
     justify-content:space-around;
+    align-items:center;
+    height: 3em;
+    
 }
 footer{
     margin-top: 3em;
@@ -50,6 +53,10 @@ footer{
 
 h1{
     text-align: center;
+}
+
+img{
+    max-width: 100%;
 }
 
 
