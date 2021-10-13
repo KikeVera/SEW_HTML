@@ -1,3 +1,4 @@
+/*Especificidad: 001*/
 main{
     display: grid;
     grid-template-columns: [line1] 25% [line2] 25% [line3] 25% [line4] 25% ;
@@ -7,6 +8,7 @@ main{
     overflow-x: auto;
 }
 
+/*Especificidad: 001*/
 figure {
     grid-column-start: line1;
     grid-column-end: line2;
@@ -16,7 +18,7 @@ figure {
    
 }
 
-
+/*Especificidad: 001*/
 section  {
     grid-column-start: line1;
     grid-column-end: line3;
@@ -26,6 +28,7 @@ section  {
 
 }
 
+/*Especificidad: 001*/
 article{
     grid-column-start: line1;
     grid-column-end: line3;
@@ -34,7 +37,7 @@ article{
    
 }
 
-
+/*Especificidad: 001*/
 aside{
 
     grid-column-start: line4;
@@ -44,6 +47,7 @@ aside{
 
 }
 
+/*Especificidad: 001*/
 nav{
     display: flex;
     justify-content:space-around;
@@ -52,10 +56,13 @@ nav{
     height: 3em;
     
 }
+
+/*Especificidad: 001*/
 footer{
     margin-top: 3em;
 }
 
+/*Especificidad: 001*/
 h1{
     text-align: center;
 }

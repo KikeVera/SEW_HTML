@@ -1,3 +1,5 @@
+
+/*Especificidad: 001*/
 body {
 	  
     font:400 1em ARIAL, sans-serif; 
@@ -7,12 +9,14 @@ body {
     
 }
 
+/*Especificidad: 001*/
 nav{
     background-color:#000000;
     color: #FFFFFF;
     height: 2em;
 }
 
+/*Especificidad: 002*/
 nav > a{
     color:white;
     background-color:#000000;
@@ -21,13 +25,14 @@ nav > a{
     
 }
 
-
+/*Especificidad: 001*/
 p{
     font:400 1em ARIAL, sans-serif; 
     color: #000000;
     background-color:#E3E4E5;
 }
 
+/*Especificidad: 001*/
 h1 {
     font: 400 3em ARIAL, sans-serif ;		
     padding: 1em ;
@@ -40,8 +45,7 @@ h1 {
   
 }
 
-
-
+/*Especificidad: 001*/
 h2{
     
     font: 400 1.8em ARIAL, sans-serif;
@@ -52,7 +56,7 @@ h2{
     
 }
 
-
+/*Especificidad: 001*/
 h3{
     
     font: 400 1.5em ARIAL, sans-serif;
@@ -61,8 +65,7 @@ h3{
     
 }
 
-
-
+/*Especificidad: 001*/
 li{
     
     
@@ -71,10 +74,12 @@ li{
     
 }
 
+/*Especificidad: 002*/
 ul > li{
     list-style-type: square;
 }
 
+/*Especificidad: 001*/
 table{
    
     
@@ -89,6 +94,7 @@ table{
     
 }
 
+/*Especificidad: 001*/
 thead{
     font: 1.1em Tahoma, sans-serif;
     font-weight:bold;
@@ -99,6 +105,7 @@ thead{
     
 }
 
+/*Especificidad: 001*/
 td{
     
     border: black 0.15em solid;
@@ -106,15 +113,18 @@ td{
   
 }
 
+/*Especificidad: 001*/
 audio{
    height: 3em;
 }
 
+/*Especificidad: 002*/
 figure > img{
     height: 20em;
     
 }
 
+/*Especificidad: 001*/
 input {
   
     font: 1.1em Tahoma, sans-serif;
