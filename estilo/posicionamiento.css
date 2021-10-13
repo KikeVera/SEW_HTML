@@ -4,7 +4,7 @@ main{
     grid-template-rows: [row1] auto [row2] auto [row3] auto ;
     align-items: center ;
     grid-auto-flow: row ;
-    overflow: scroll;
+    overflow-x: auto;
 }
 
 figure {
@@ -22,7 +22,7 @@ section  {
     grid-column-end: line3;
     grid-row-start: row2;
     grid-row-end: row2;
-    overflow: scroll;
+    overflow-x: auto;
 
 }
 
