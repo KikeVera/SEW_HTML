@@ -22,6 +22,7 @@ section  {
     grid-column-end: line3;
     grid-row-start: row2;
     grid-row-end: row2;
+    overflow: scroll;
 
 }
 
@@ -59,10 +60,7 @@ h1{
     text-align: center;
 }
 
-table{
-    overflow-x:auto;
-    max-width: 100%;		
-}
+
 
 
 
